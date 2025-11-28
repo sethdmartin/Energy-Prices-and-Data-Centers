@@ -15,8 +15,6 @@ import re
 '''
 Examination of correlations between data center power usage and price changes for residential
 Initial visualization: plot map of USA, color code by electricity price changes, overlay data center power usage stats
-
-might open up into PCA on various columns from these sets
 '''
 
 ###
@@ -352,4 +350,5 @@ ax.text(-82,48,'#\'s = Data Center Power Usage [TWh]',fontsize=12)
 
 
 #plt.savefig('figures/US_price_delta_v1.png',dpi=500)
+
 plt.show()
